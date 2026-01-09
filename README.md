@@ -29,8 +29,8 @@ This project acts as the central gateway for the SAE IoT architecture. It runs o
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/matlacheny/sae-s5-but3-iot-g2-api.git
-cd sae-s5-but3-iot-g2-api
+git clone https://github.com/andhy-leong/MediboxApi.git
+cd MediboxApi
 
 ```
 
@@ -169,4 +169,4 @@ The server exposes several endpoints for management and data retrieval:
 
 ## Automatic Updates
 
-The stack includes **Watchtower**. It automatically checks for new Docker images of the API every 60 seconds and updates the container if a new version is pushed to DockerHub (`matlacheny/saeiotserver:latest`).
+The stack includes **Watchtower**. It automatically checks for new Docker images of the API every 60 seconds and updates the container if a new version is pushed to DockerHub.
